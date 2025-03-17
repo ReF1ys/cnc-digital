@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <ссылка на репозиторий>
+   git clone https://github.com/alinasorokina4778/cnc-digital
 
 2. Перейдите в директорию проекта:
 cd /home/alina/new-univ-project/universityproject
