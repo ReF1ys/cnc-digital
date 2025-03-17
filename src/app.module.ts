@@ -5,6 +5,10 @@ import { UserModule } from './user/user.module';
 import { DashboardModule } from './dashboard/dashboard.module';  // Убедись, что путь правильный
 import { User } from './user/entities/user.entity';
 import { AuthModule } from './auth/auth.module';
+import { MachinesModule } from './machines/machines.module';
+import { UtilizationModule } from './utilization/utilization.module';
+import { ProductionModule } from './production/production.module';
+import { OrdersModule } from './orders/orders.module';
 
 @Module({
   imports: [
@@ -22,6 +26,10 @@ import { AuthModule } from './auth/auth.module';
     UserModule,
     DashboardModule,
     AuthModule, // Подключаем модуль дашборда
+    MachinesModule,
+    UtilizationModule,
+    ProductionModule,
+    OrdersModule,
   ],
 })
 export class AppModule {}

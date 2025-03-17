@@ -11,7 +11,8 @@
 2. Перейдите в директорию проекта:
 cd /home/alina/new-univ-project/universityproject
 
-3. Построение Docker образа: Для сборки образа используйте следующую команду: docker build -t universityproject-image .
+3. Построение Docker образа: Для сборки образа используйте следующую команду: 
+docker build -t universityproject-image .
 
 4. Запуск контейнера с использованием Docker Compose:
 docker-compose up -d
